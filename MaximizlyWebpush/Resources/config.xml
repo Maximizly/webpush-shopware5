@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element scope="shop" type="boolean">
+            <name>maximizlyWebpushActive</name>
+            <label lang="de">Aktiv</label>
+            <label lang="en">Active</label>
+            <value>1</value>
+        </element>
+        <element scope="shop" type="text">
+            <name>maximizlyWebpushDomain</name>
+            <label lang="de">Webpush Domain</label>
+            <label lang="en">Webpush Domain</label>
+            <description lang="de"><![CDATA[
+                Webpush Domain wie im maximizly.app Kundenportal angeben. z.B. yourshop.de
+            ]]></description>
+            <description lang="en"><![CDATA[
+                 Webpush Domain registered in the maximizly.app backend. e.g. yourshop.com
+            ]]></description>
+        </element>
+    </elements>
+</config>

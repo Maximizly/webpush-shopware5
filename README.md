@@ -1,19 +1,7 @@
-# Maximizly - Webpush Magento 2.3 Exentsion
+# Maximizly - Webpush Shopware 5 Exentsion
 
-To automaticly activate Webpush (Tracking and Registration) in your Magento Store, please install the following package.
+To automaticly activate Webpush (Tracking and Registration) in your Shopware Store, please install the following Plugin.
 
 ## Installation
 
-To install the Extension please run the following command:
-
-``` bash
-# Run in Magento 2 root
-composer require maximizly/webpush-magento2
-```
-and then run:
-
-``` bash
-# Run in Magento 2 root
-php bin/magento setup:upgrade
-php bin/magento setup:di:compile
-```
+To install the Plugin please upload the Package into your /custom/plugins directory and activate the Plugin in the Plugin Manager.

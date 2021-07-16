@@ -6,7 +6,7 @@
         <script>
             let maximizly = []; maximizly['webpush_domain'] = '{config name="maximizlyWebpushDomain"}';
         </script>
-        <script src="https://maximizly.s3.eu-central-1.amazonaws.com/sources/webpush/develop/js/maximizly-push.js" defer></script>
+        <script src="https://maximizly.s3.eu-central-1.amazonaws.com/sources/webpush/production/js/maximizly-push.js" defer></script>
     {else}
         <!-- Maximizly Module deactivated -->
     {/if}
